@@ -70,17 +70,16 @@ export default class PickerDemo extends Component<{}> {
     render() {
         return (
             <View style={styles.container}>
-                <Header headerOptions={headerOptions} />
-                    <View style={styles.wrap}>
-                        <View style={styles.header}>
-                            <Text style={styles.htxt}>选择索引：{this.state.index}</Text>
-                            <Text style={styles.htxt}>选择标签：{this.state.professional}</Text>
-                        </View>
-                        <Picker PickerData={this.state.list} 
-                        defaultValue={2} 
-                        label={'职业'} 
-                        getTxt={(val,label)=>this.setState({index:val,professional:label})}/>
-                    </View>
+                  <View style={styles.wrap}>
+                      <View style={styles.header}>
+                          <Text style={styles.htxt}>选择索引：{this.state.index}</Text>
+                          <Text style={styles.htxt}>选择标签：{this.state.professional}</Text>
+                      </View>
+                      <Picker PickerData={this.state.list} 
+                      defaultValue={2} 
+                      label={'职业'} 
+                      getTxt={(val,label)=>this.setState({index:val,professional:label})}/>
+                  </View>
             </View>
         );
     }
