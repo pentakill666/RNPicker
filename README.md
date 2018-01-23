@@ -9,7 +9,7 @@ a react native picker for android and ios
 </br>
 
 
-### install
+### Install
 由于Android版依赖了react-native-wheel-picker，所以安装的时候对于Android需要进行特殊配置：
 ```
 npm i react-native-wheel-picker --save
