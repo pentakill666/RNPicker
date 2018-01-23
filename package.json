@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/pentakill666/RNPicker.git"
+    "url": "git+https://github.com/pentakill666/react-native-q-picker.git"
   },
   "keywords": [
     "react",
@@ -18,7 +18,7 @@
   "author": "vayen",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/pentakill666/RNPicker/issues"
+    "url": "https://github.com/pentakill666/react-native-q-picker/issues"
   },
-  "homepage": "https://github.com/pentakill666/RNPicker#readme"
+  "homepage": "https://github.com/pentakill666/react-native-q-picker#readme"
 }
