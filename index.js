@@ -42,7 +42,6 @@ export default class App extends Component<{}> {
               <Picker isShow={isShow} data={PickerData} defaultValue={defaultValue} getVal={(val,label,isShow)=>this._getValue(val,label,isShow)}/>
             </View>
             <Text style={styles.current}>{currentLabel}</Text>
-             <Image source={require('../images/link.png')} style={styles.linkIcon}/>
           </TouchableOpacity>
         )
   }
