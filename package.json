@@ -1,6 +1,6 @@
 {
   "name": "react-native-q-picker",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "description": "a react native picker for android and ios",
   "main": "index.js",
   "scripts": {
