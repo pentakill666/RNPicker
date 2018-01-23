@@ -1,0 +1,24 @@
+{
+  "name": "rn-picker",
+  "version": "0.1.1",
+  "description": "a react native picker for android and ios",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pentakill666/RNPicker.git"
+  },
+  "keywords": [
+    "react",
+    "native",
+    "pikcer"
+  ],
+  "author": "pentakill",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pentakill666/RNPicker/issues"
+  },
+  "homepage": "https://github.com/pentakill666/RNPicker#readme"
+}
