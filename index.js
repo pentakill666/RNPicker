@@ -1,5 +1,5 @@
 /**
- * 横向输入框组件
+ * picker
  */
 import React, { Component } from 'react';
 import {
@@ -32,30 +32,18 @@ export default class App extends Component<{}> {
           isShow:isShow,
       })
   }
-  renderDom() {
-    const { label,onPress,PickerData,last} = this.props;
-    let { defaultValue,currentLabel,isShow } = this.state;
-        return (
-          <TouchableOpacity activeOpacity={1} style={[styles.wrap,{borderBottomWidth:last?0:1}]} onPress={()=>this.setState({isShow:true})}>
-            <Text style={styles.label} >{label}</Text>
-            <View style={styles.picker}>
-              <Picker isShow={isShow} data={PickerData} defaultValue={defaultValue} getVal={(val,label,isShow)=>this._getValue(val,label,isShow)}/>
-            </View>
-            <Text style={styles.current}>{currentLabel}</Text>
-          </TouchableOpacity>
-        )
-  }
-  _isLink(link) {
-      if(link) {
-          return(
-              <Image source={require('../images/link.png')} style={styles.linkIcon}/>
-          )
-      }
-  }
   render() {
-    return(
-      this.renderDom()
-    )
+      const { label,onPress,PickerData,last} = this.props;
+      let { defaultValue,currentLabel,isShow } = this.state;
+      return (
+        <TouchableOpacity activeOpacity={1} style={[styles.wrap,{borderBottomWidth:last?0:1}]} onPress={()=>this.setState({isShow:true})}>
+          <Text style={styles.label} >{label}</Text>
+          <View style={styles.picker}>
+            <Picker isShow={isShow} data={PickerData} defaultValue={defaultValue} getVal={(val,label,isShow)=>this._getValue(val,label,isShow)}/>
+          </View>
+          <Text style={styles.current}>{currentLabel}</Text>
+        </TouchableOpacity>
+      )
   }
 }
 
@@ -89,11 +77,7 @@ const styles = StyleSheet.create({
     flex:1,
     flexDirection:'row',
     paddingLeft:10,
-  },
-    linkIcon:{
-      width:6,
-      height:10,
-      marginRight:10,
+    paddingLeft:12,
   },
   current:{
       fontSize:16,
