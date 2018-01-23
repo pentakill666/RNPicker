@@ -6,7 +6,10 @@ a react native picker for android and ios
 <img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/GQZSB.gif" width = "400" height = "620" alt="android" align=right />
 
 </br>
-# install
+</br>
+
+
+### install
 由于Android版依赖了react-native-wheel-picker，所以安装的时候对于Android需要进行特殊配置：
 ```
 npm i react-native-wheel-picker --save
@@ -15,17 +18,17 @@ npm i react-native-wheel-picker --save
 npm i react-native-q-picker --save
 ```
 
-# 配置Android
- # Add in settings.gradle
+### 配置Android
+ #### Add in settings.gradle
 ```
 include ':react-native-wheel-picker'
 project(':react-native-wheel-picker').projectDir = new File(settingsDir, '../node_modules/react-native-wheel-picker/android')
 ```
-# Add in app/build.gradle
+#### Add in app/build.gradle
 ```
 compile project(':react-native-wheel-picker')
 ```
-# Modify MainApplication
+#### Modify MainApplication
 ```
     import com.zyu.ReactNativeWheelPickerPackage;
     ......
@@ -37,7 +40,7 @@ compile project(':react-native-wheel-picker')
         );
     }
 ```
-# usage
+### usage
 
 ```
 import React, { Component } from 'react';
