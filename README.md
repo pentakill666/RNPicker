@@ -1,9 +1,10 @@
 # react-native-q-picker
 a react native picker for android and ios
 由于react-native-picker的Android版使用悬浮窗，造成小米和魅族手机需要手动打开悬浮窗权限，所以决定抛弃react-native-picker，自己写了一个支持Android和ios版的picker，效果图：
-
-<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/3P157.gif" style="width:400px;height:730px;float:left" alt="ios" />
-<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/GQZSB.gif" style="width:400px;height:620px;float:right" alt="android"/>
+<div style="width:100%;overflow:hidden;">
+<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/3P157.gif" style="width:50%;float:left" alt="ios" />
+<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/GQZSB.gif" style="width:50%;float:right" alt="android"/>
+</div>
 
 </br>
 </br>
