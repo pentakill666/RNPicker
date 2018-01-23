@@ -2,10 +2,10 @@
 a react native picker for android and ios
 由于react-native-picker的Android版使用悬浮窗，造成小米和魅族手机需要手动打开悬浮窗权限，所以决定抛弃react-native-picker，自己写了一个支持Android和ios版的picker，效果图：
 
-<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/3P157.gif" width = "400" height = "730.666" alt="ios" align=left />
-<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/GQZSB.gif" width = "400" height = "619.333" alt="android" align=right />
+<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/3P157.gif" width = "400" height = "620" alt="ios" align=left />
+<img src="https://github.com/pentakill666/react-native-q-picker/blob/master/img/GQZSB.gif" width = "400" height = "620" alt="android" align=right />
 
----
+>
 # install
 由于Android版依赖了react-native-wheel-picker，所以安装的时候对于Android需要进行特殊配置：
 ```
