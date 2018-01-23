@@ -1,2 +1,2 @@
-# react-native-picker
+# RNPicker
 a react native picker for android and ios
